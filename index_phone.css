@@ -1,0 +1,130 @@
+
+@media screen and (max-width:480px) {
+
+*{
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	color: #9dabc0;
+	font-family: "Times New Roman";
+	cursor: default;
+}
+body{
+	background: #f0f0f0;
+}
+a{
+	text-decoration: none;
+}
+h1{
+	font-size: 65px;
+	text-align: center;
+	margin-top: 200px;
+	text-shadow:  2px 2px 4px #d1d1d1;
+}
+span{
+	display: none;
+	cursor: pointer;
+}
+
+.menu-btn{
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	margin: 20px 15px;
+	text-align: center;
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	-moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    box-shadow:  6px 6px 7px #d1d1d1,-6px -6px 7px #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    text-shadow:  0px 0px 1px #d1d1d1;
+    transition: box-shadow .1s ease-in-out;
+}
+.menu-btn:active{
+	box-shadow: inset 2px 2px 3px #d1d1d1,inset -2px -2px 3px #ffffff;
+}
+
+nav{
+	display: none;
+	position: fixed;
+	z-index: 100;
+	width: 100vw;
+	height: 100vh;
+	background-color: ;
+	text-align: left;
+}
+nav ul{
+	display: none;
+	width:250px;
+	height: 100vh;
+	background: #f0f0f0;
+	box-shadow:  6px 6px 7px #d1d1d1,-6px -6px 7px #ffffff;
+}
+nav li{
+	height: 45px;
+	line-height: 45px;
+	padding: 0 50px;
+	font-size: 14px;
+	font-family: "Hiragino Sans";
+	font-weight: 400;
+	text-align: left;
+	cursor: pointer;
+	transition:all 0.3s;
+	white-space: nowrap;
+	text-shadow:  0px 0px 0px #d1d1d1;
+}
+nav li:active{
+	text-shadow:  0px 0px 4px #d1d1d1;
+}
+nav span{
+	float: right;
+	cursor: pointer;
+}
+.hide-btn{
+	padding: 0 45px;
+	height: 96px;
+	text-align: right;
+	
+}
+.hide-btn span{
+	font-size: 30px;
+	line-height: 96px;
+	cursor: pointer;
+}
+.hide-btn span:active{
+	text-shadow:  2px 2px 4px #d1d1d1;
+}
+
+.btn-container{
+	text-align: center;
+}
+.btn-container a{
+	display: inline-block;
+	width: 150px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 18px;
+	background: #f0f0f0;
+	box-shadow:  6px 6px 7px #d1d1d1,-6px -6px 7px #ffffff;
+	text-align: center;
+	margin:25px 10px;
+	transition: box-shadow .1s ease-in-out;
+	transition: font-size .05s ease-in-out;
+	border-radius: 10px;
+	cursor: pointer;
+	text-shadow:  0px 0px 2px #d1d1d1;
+}
+.btn-container a:active{
+	box-shadow: inset 2px 2px 3px #d1d1d1,inset -2px -2px 3px #ffffff;
+}
+
+} /* 必須　*/
+
+
+

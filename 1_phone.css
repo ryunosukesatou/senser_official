@@ -1,0 +1,212 @@
+@media screen and (max-width:480px) {
+
+*{
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	color: #9dabc0;
+	font-family: "Times New Roman";
+	cursor: default;
+}
+body{
+	background: #f0f0f0;
+}
+a{
+	text-decoration: none;
+}
+
+header{
+	height: 80px;
+	box-shadow:  6px 6px 7px #d1d1d1,-6px -6px 7px #ffffff;
+	text-align: center;
+	border-radius: 10px;
+	margin:10px 5px;
+}
+header h1{
+	display: inline-block;
+	font-size: 45px;
+	line-height: 85px;
+	text-shadow:  2px 2px 4px #d1d1d1;
+	
+}
+header span{
+	display: none;
+	margin-right: 0px; 
+	cursor: pointer;
+}
+
+.menu-btn{
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	margin: 10px;
+	text-align: center;
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	-moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+   	box-shadow:  6px 6px 7px #d1d1d1, -6px -6px 7px #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.menu-btn:hover{
+	text-shadow:  2px 2px 4px #d1d1d1;
+}
+.menu-btn:active{
+	box-shadow: inset 6px 6px 7px #d1d1d1,inset -6px -6px 7px #ffffff;
+}
+.menu-btn_1{
+	 float: left;
+}
+.menu-btn_2{
+	 float: right;
+}
+
+nav{
+	display: none;
+	position: fixed;
+	z-index: 100;
+	width: 100vw;
+	height: 100vh;
+	background-color: ;
+	text-align: left;
+
+}
+nav ul{
+	display: none;
+	width:150px;
+	height: 100vh;
+	background: #f0f0f0;
+	box-shadow:  6px 6px 7px #d1d1d1,-6px -6px 7px #ffffff;
+	border-radius: 0px;
+	list-style: none;
+}
+nav li{
+	height: 45px;
+	line-height: 45px;
+	padding: 0 25px;
+	font-size: 12px;
+	font-family: "Hiragino Sans";
+	font-weight: 400;
+	text-align: left;
+	cursor: pointer;
+	transition:all 0.3s;
+	white-space: nowrap;
+}
+nav li:hover{
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+}
+nav span{
+	float: right;
+}
+.hide-btn{
+	padding: 0 20px;
+	height: 80px;
+	text-align: right;
+	transition:all 0.3s;
+	
+}
+.hide-btn span{
+	font-size: 20px;
+	line-height: 80px;
+	cursor: pointer;
+}
+.hide-btn span:hover{
+	text-shadow:  2px 2px 4px #d1d1d1;
+}
+
+.sub-nav ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	list-style: none;
+	text-shadow:  2px 2px 4px #d1d1d1;
+	padding-top: 5px;
+	margin-bottom: 30px;
+}
+.sub-nav li span{
+	display: inline-block;
+	margin: 0 10px;
+	font-size: 20px;
+	cursor: pointer;
+}
+.now{
+	text-decoration: underline;
+}
+.next:hover{
+	text-decoration: underline;
+}
+.category{
+	margin: 0px 30px;
+	border-radius: 20px;
+	padding: 10px 0;
+	text-align: center;
+	font-size: 30px;
+	text-shadow:  2px 2px 4px #d1d1d1;
+	box-shadow:  6px 6px 7px #d1d1d1,-6px -6px 7px #ffffff;
+}
+.item-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-around;
+	padding:20px 15px;
+	text-shadow:  1px 1px 2px #d1d1d1;
+	border-radius: 20px;
+}
+.item-box{
+	width: 150px;
+	padding:20px 0;
+	margin: 20px 0;
+	box-shadow:  6px 6px 7px #d1d1d1,-6px -6px 7px #ffffff;
+	text-align: center;
+	border-radius: 20px;
+}
+.item-box div{
+	width: 120px;
+	height: 120px;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	box-shadow:  6px 6px 7px #d1d1d1,-6px -6px 7px #ffffff;
+	border-radius: 20px;
+	cursor: pointer;
+	background-size: cover;
+}
+.item-box h2{
+	font-size: 20px;
+}
+.item-box h3{
+	font-size: 15px;
+}
+.item-box p{
+	font-size: 15px;
+}
+.item1{ background-image: url('fashion_H_1.gif');}
+.item2{ background-image: url('fashion_H_2.gif');}
+.item3{ background-image: url('fashion_H_3.gif');}
+.item4{ background-image: url('fashion_H_4.gif');}
+.item5{ background-image: url('fashion_H_5.gif');}
+.item6{ background-image: url('fashion_H_6.gif');}
+.item7{ background-image: url('fashion_H_7.gif');}
+.item8{ background-image: url('fashion_H_8.gif');}
+.item9{ background-image: url('fashion_LT_1.gif');}
+.item10{ background-image: url('fashion_LT_2.gif');}
+.item11{ background-image: url('fashion_LT_3.gif');}
+.item12{ background-image: url('fashion_LT_4.gif');}
+.item13{ background-image: url('fashion_LT_5.gif');}
+.item14{ background-image: url('fashion_LT_6.gif');}
+.item15{ background-image: url('fashion_T_1.gif');}
+.item16{ background-image: url('fashion_T_2.gif');}
+.item17{ background-image: url('fashion_T_3.gif');}
+.item18{ background-image: url('fashion_T_4.gif');}
+
+
+
+
+
+
+
+} /* 必須　*/
